@@ -1,0 +1,198 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h3{
+	font-family: 'Poiret One', cursive;
+	color: white;
+	font-size: 45px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+a{
+	font-family: 'Poiret One', cursive;
+}
+body{
+	background: url("bombom.jpg");
+}
+nav{
+	background-color: white;
+	text-align: center;
+}
+nav a{
+	text-decoration: none;
+	color: #222;
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 30px;
+	display: inline-block;
+}
+#banner{
+	background: url("banny.jpg");
+	text-align: center;
+	overflow: hidden;
+	background-attachment: fixed;
+}
+h1{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'Poiret One', cursive;
+}
+#banner p{
+	width: 60%;
+	background: rgba(0,0,0,0.5);
+	float: right;
+	margin-right: 20px;
+	border-radius: 10px;
+	font-family: 'Poiret One', cursive;
+	color: white;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+#banner a{
+	display: block;
+	clear: both;
+	background: white;
+	width: 200px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	color: #222;
+	text-decoration: none;
+	line-height: 50px;
+	font-size: 30px;
+	transition: 0.3s;
+}
+#banner a:hover{
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+#aboutUs img{
+	width: 40%;
+	border-radius: 20px;
+}
+#info{
+	width: 40%;
+	display: inline-block;
+	margin-right: 20px;
+	text-align: center;
+	background: rgba(0,0,0,0.5);
+	color: white;
+	vertical-align: top;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 20px;
+
+}
+#aboutUs{
+	text-align: center;
+}
+#info p{
+	text-align: right;
+	text-shadow: 0 0 5px rgba(0,0,0,0.5);
+	/*background: rgba(0,0,0,0.5);*/
+	color: white;	
+}
+h4{
+	margin: 20px;
+	font-family: "Poiret One", cursive;
+}
+.mode{
+	background-repeat: no-repeat;
+	width: 25%;
+	text-align: center;
+	background-size: cover;
+	display: inline-block;
+	font-family: "Poiret One", cursive;
+	color: white;
+	margin: 20px;
+	border-radius: 20px;
+	
+}
+.mode:nth-of-type(1){
+	background-image: url("Pixelmon.jfif");
+
+}
+.mode:nth-of-type(2){
+	background-image: url("SkywarsShire.png");
+}
+.mode:nth-of-type(3){
+	background-image: url("bedwars8931406.jpg");
+}
+#modes{
+	text-align: center;
+}
+#modes li{
+	list-style: none;
+	line-height: 40px;
+}
+ul{
+	background-color: rgba(0,0,0,0.8);
+	list-style: none;
+}
+.mode h5{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-shadow: 0 0 10px rgba(0,0,0,0.8)
+}
+.mode a{
+	text-decoration: none;
+	color: #222;
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 20px;
+}
+#modes h2{
+	color: white;
+	font-family: "Poiret One", cursive;
+	margin-top: 20px;
+	margin-bottom: 20px;
+    
+}
+form{
+	background-color: blue;
+	text-align: center;
+	color: white;
+	font-family: "Poiret One", cursive;
+	width: 90%;
+	max-width: 400px;
+	margin: auto;
+	margin-bottom: 100px;
+	overflow: hidden;
+}
+form input,textarea,button{
+	display: block;
+	margin: auto;
+	width: 90%;
+	margin-bottom: 20px;
+	font-family: "Poiret One", cursive;
+    line-height: 35px;
+    border: none;
+    text-align: center;
+    color: black;
+}
+form h2, form p{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+@media (max-width: 600px){
+	h1{color: white;}
+	#aboutUs img {
+		width: 100%;
+	}
+	#info{
+		width: 90%;
+		margin-right: 0;
+
+	}
+    .mode{
+    	width: 90%;
+    	margin: 20px 0;
+    }
+}
